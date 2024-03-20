@@ -3,9 +3,14 @@
 import { useTheme } from 'next-themes'
 import { Toggle } from './ui/toggle'
 import { MoonIcon, SunIcon } from '@radix-ui/react-icons'
+import { useEffect } from 'react'
 
 export function ModeToggle() {
   const { theme, setTheme } = useTheme()
+
+  useEffect(() => {
+    setTheme('dark')
+  }, [])
 
   return (
     <Toggle
