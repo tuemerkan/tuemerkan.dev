@@ -6,40 +6,64 @@ import {
   NavigationMenuList,
   navigationMenuTriggerStyle
 } from './ui/navigation-menu'
-import { ModeToggle } from './mode-toggle'
+import { useParams } from 'next/navigation'
+import clsx from 'clsx'
+import { useEffect, useState } from 'react'
+
+const useHash = () => {
+  const params = useParams()
+  const [hash, setHash] = useState()
+
+  useEffect(() => {
+    const currentHash = window.location.hash.replace('#', '')
+    setHash(currentHash)
+  }, [params])
+
+  return hash
+}
 
 export function Navbar() {
+  const anchor = useHash()
+
   return (
     <>
-      <NavigationMenu>
-        <NavigationMenuList className="flex flex-row">
+      <NavigationMenu orientation="vertical" className="">
+        <NavigationMenuList className="flex-col items-start">
           <NavigationMenuItem>
-            <Link href="/resume" legacyBehavior passHref>
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                tuemerkan.dev
-              </NavigationMenuLink>
-            </Link>
-          </NavigationMenuItem>
-        </NavigationMenuList>
-      </NavigationMenu>
-      <NavigationMenu className="">
-        <NavigationMenuList className="flex flex-row">
-          <NavigationMenuItem>
-            <Link href="/resume" legacyBehavior passHref>
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Resume
+            <Link href="#about" legacyBehavior passHref>
+              <NavigationMenuLink
+                className={clsx(
+                  anchor === 'about' ? 'font-bold' : '',
+                  navigationMenuTriggerStyle()
+                )}
+              >
+                About
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link href="/projects" legacyBehavior passHref>
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+            <Link href="#experience" legacyBehavior passHref>
+              <NavigationMenuLink
+                className={clsx(
+                  anchor === 'experience' ? 'font-bold' : '',
+                  navigationMenuTriggerStyle()
+                )}
+              >
+                Experience
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
+          <NavigationMenuItem>
+            <Link href="#projects" legacyBehavior passHref>
+              <NavigationMenuLink
+                className={clsx(
+                  anchor === 'projects' ? 'font-bold' : '',
+                  navigationMenuTriggerStyle()
+                )}
+              >
                 Projects
               </NavigationMenuLink>
             </Link>
-          </NavigationMenuItem>
-          <NavigationMenuItem>
-            <ModeToggle />
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
