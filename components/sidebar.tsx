@@ -1,5 +1,5 @@
-import Link from 'next/link'
 import { Navbar } from './navbar'
+import Socials from './socials'
 
 export default function Sidebar() {
   return (
@@ -13,14 +13,7 @@ export default function Sidebar() {
       </section>
 
       <Navbar />
-
-      <div className="mb-32 px-2 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <footer className="">
-          <Link href="mailto:tuemerkan.d@icloud.com">
-            <span>E-mail</span>
-          </Link>
-        </footer>
-      </div>
+      <Socials />
     </div>
   )
 }
