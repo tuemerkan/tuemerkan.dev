@@ -54,6 +54,18 @@ export function Navbar() {
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
+            <Link href="#education" legacyBehavior passHref>
+              <NavigationMenuLink
+                className={clsx(
+                  anchor === 'education' ? 'font-bold' : '',
+                  navigationMenuTriggerStyle()
+                )}
+              >
+                Education
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
+          <NavigationMenuItem>
             <Link href="#projects" legacyBehavior passHref>
               <NavigationMenuLink
                 className={clsx(
