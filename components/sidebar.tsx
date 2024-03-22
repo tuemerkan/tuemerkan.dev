@@ -1,3 +1,5 @@
+'use client'
+
 import { Navbar } from './navbar'
 import Socials from './socials'
 
