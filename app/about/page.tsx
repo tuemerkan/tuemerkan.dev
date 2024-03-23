@@ -11,8 +11,8 @@ export default function About() {
       </Avatar>
 
       <p>
-        I'm an engineer who places a high value on good communication and has
-        extensive experience in developing user-friendly digital products. I
+        I&apos;m an engineer who places a high value on good communication and
+        has extensive experience in developing user-friendly digital products. I
         take great joy in tackling complex tasks, employing the latest
         technologies, and being part of a dedicated team.
       </p>

@@ -10,7 +10,7 @@ export function ModeToggle() {
 
   useEffect(() => {
     setTheme('dark')
-  }, [])
+  }, [setTheme])
 
   return (
     <Toggle
