@@ -66,9 +66,9 @@ export default function Experience() {
             <Image
               className="pt-3"
               src="/images/rexroth.svg"
-              width={50}
-              height={50}
-              alt="ohmlogo"
+              width={75}
+              height={75}
+              alt="rexroth"
             />
           </CardHeader>
         </div>
@@ -95,9 +95,9 @@ export default function Experience() {
             <Image
               className="pt-3"
               src="/images/rexroth.svg"
-              width={50}
-              height={50}
-              alt="ohmlogo"
+              width={75}
+              height={75}
+              alt="rexroth"
             />
           </CardHeader>
         </div>
@@ -129,8 +129,8 @@ export default function Experience() {
             <Image
               className="pt-3"
               src="/images/siemens.svg"
-              width={50}
-              height={50}
+              width={75}
+              height={75}
               alt="siemens"
             />
           </CardHeader>
@@ -155,8 +155,8 @@ export default function Experience() {
             <Image
               className="pt-3"
               src="/images/siemens.svg"
-              width={50}
-              height={50}
+              width={75}
+              height={75}
               alt="siemens"
             />
           </CardHeader>
@@ -189,8 +189,8 @@ export default function Experience() {
             <Image
               className="pt-3"
               src="/images/rexroth.svg"
-              width={50}
-              height={50}
+              width={75}
+              height={75}
               alt="rexroth"
             />
           </CardHeader>

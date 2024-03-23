@@ -11,7 +11,7 @@ export default function Sidebar() {
           Tümerkan Durmuş
         </h1>
         <h2 className="mt-3 text-lg font-medium  sm:text-xl">
-          DevOps Engineer
+          Software Engineer
         </h2>
         <p className="mt-4 max-w-xs leading-normal">I like to fix things</p>
 
