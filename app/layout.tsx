@@ -30,7 +30,6 @@ export default function RootLayout({
         <CursorEffect className={''}>
           <ThemeProvider
             attribute="class"
-            defaultTheme="light"
             enableSystem
             disableTransitionOnChange
           >
