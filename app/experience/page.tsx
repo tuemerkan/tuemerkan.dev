@@ -208,11 +208,13 @@ export default function Experience() {
               reality, image recognition, machine learning)
             </p>
           </CardContent>
-          <Badge>Unity</Badge>
-          <Badge>HoloLens</Badge>
-          <Badge>C#</Badge>
-          <Badge>TensorFlow</Badge>
-          <Badge>Python</Badge>
+          <CardFooter>
+            <Badge>Unity</Badge>
+            <Badge>HoloLens</Badge>
+            <Badge>C#</Badge>
+            <Badge>TensorFlow</Badge>
+            <Badge>Python</Badge>
+          </CardFooter>
         </div>
       </Card>
     </div>
