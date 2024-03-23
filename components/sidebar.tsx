@@ -10,7 +10,7 @@ export default function Sidebar() {
         <h1 className="text-4xl tracking-tight text-slate-200 sm:text-5xl font-bold">
           Tümerkan Durmuş
         </h1>
-        <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
+        <h2 className="mt-3 text-lg font-medium  sm:text-xl">
           DevOps Engineer
         </h2>
         <p className="mt-4 max-w-xs leading-normal">I like to fix things</p>
