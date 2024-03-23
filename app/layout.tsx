@@ -9,7 +9,7 @@ import CursorEffect from '@/lib/cursor-effect'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'tuemerkan.dev',
+  title: 'Tümerkan Durmuş',
   description: 'Personal Website'
 }
 
@@ -24,7 +24,7 @@ export default function RootLayout({
       <body
         className={clsx(
           inter.className,
-          'leading-relaxed text-slate-400 bg-slate-900 antialiased selection:bg-teal-300 selection:text-teal-900'
+          'leading-relaxed text-slate-400 bg-[#080917] antialiased selection:bg-orange-400 selection:text-teal-900'
         )}
       >
         <CursorEffect className={''}>

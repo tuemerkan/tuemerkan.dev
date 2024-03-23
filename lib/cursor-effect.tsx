@@ -26,7 +26,7 @@ const CursorEffect: React.FC<CursorEffectProps> = ({ children, className }) => {
   return (
     <div
       style={{
-        backgroundImage: `radial-gradient( 600px at ${CursorEffectPosition().x}px ${CursorEffectPosition().y}px, rgba(29, 78, 216, 0.15), transparent 80% )`
+        backgroundImage: `radial-gradient( 1200px at ${CursorEffectPosition().x}px ${CursorEffectPosition().y}px, rgba(147, 51, 234, 0.15), transparent 80% )`
       }}
       className={className}
     >
