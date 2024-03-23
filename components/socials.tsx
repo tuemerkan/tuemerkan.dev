@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Socials() {
   return (
-    <div className="px-3 flex flex-row gap-5 items-center">
+    <div className="px-1 pt-5 flex flex-row gap-5 items-center">
       <Link href="https://x.com/tuemerkan" target="_blank">
         <span className="sr-only">X</span>
         <svg

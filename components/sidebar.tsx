@@ -5,17 +5,20 @@ import Socials from './socials'
 
 export default function Sidebar() {
   return (
-    <div className="flex flex-col h-full">
-      <section className="px-2">
-        <h2 className="text-5xl whitespace-nowrap font-bold">
+    <>
+      <div>
+        <h1 className="text-4xl tracking-tight text-slate-200 sm:text-5xl font-bold">
           Tümerkan Durmuş
+        </h1>
+        <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
+          DevOps Engineer
         </h2>
-        <p className="text-2xl py-3">DevOps Engineer</p>
-        <p className="py-3">I like to fix things</p>
-      </section>
+        <p className="mt-4 max-w-xs leading-normal">I like to fix things</p>
 
-      <Navbar />
+        <Navbar />
+      </div>
+
       <Socials />
-    </div>
+    </>
   )
 }

@@ -16,7 +16,7 @@ export function Navbar() {
 
   return (
     <>
-      <NavigationMenu orientation="vertical" className="">
+      <NavigationMenu orientation="vertical" className="py-16">
         <NavigationMenuList className="flex-col items-start">
           <NavigationMenuItem>
             <Link href="/about" legacyBehavior passHref>
