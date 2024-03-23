@@ -13,10 +13,10 @@ import Image from 'next/image'
 
 export default function Experience() {
   return (
-    <div className="flex flex-col gap-10 items-center overflow-y-auto scroll no-scrollbar">
-      <Card className="w-full grid grid-cols-7">
+    <div className="group/list flex flex-col gap-10 items-center overflow-y-auto scroll no-scrollbar">
+      <Card className="w-full grid grid-cols-7 ">
         <div className="col-span-2">
-          <CardHeader className="text-[8pt]">
+          <CardHeader className="text-sm text-slate-500">
             <span>APR 23 — PRESENT</span>
             <Image
               className="pt-3"
@@ -33,7 +33,7 @@ export default function Experience() {
             <CardDescription>DB Systel</CardDescription>
           </CardHeader>
           <CardContent>
-            <ul>
+            <ul className="list-disc">
               <li>
                 Development of a web application for traffic management within a
                 cross-functional, agile team
@@ -61,7 +61,7 @@ export default function Experience() {
 
       <Card className="w-full grid grid-cols-7">
         <div className="col-span-2">
-          <CardHeader className="text-[8pt]">
+          <CardHeader className="text-sm text-slate-500">
             <span>OCT 22 — MAR 23</span>
             <Image
               className="pt-3"
@@ -90,7 +90,7 @@ export default function Experience() {
 
       <Card className="w-full grid grid-cols-7">
         <div className="col-span-2">
-          <CardHeader className="text-[8pt]">
+          <CardHeader className="text-sm text-slate-500">
             <span>OCT 21 — SEP 22</span>
             <Image
               className="pt-3"
@@ -124,7 +124,7 @@ export default function Experience() {
 
       <Card className="w-full grid grid-cols-7">
         <div className="col-span-2">
-          <CardHeader className="text-[8pt]">
+          <CardHeader className="text-sm text-slate-500">
             <span>FEB — JUL 21</span>
             <Image
               className="pt-3"
@@ -150,7 +150,7 @@ export default function Experience() {
 
       <Card className="w-full grid grid-cols-7">
         <div className="col-span-2">
-          <CardHeader className="text-[8pt]">
+          <CardHeader className="text-sm text-slate-500">
             <span>MAR 20 — JAN 21</span>
             <Image
               className="pt-3"
@@ -184,8 +184,8 @@ export default function Experience() {
 
       <Card className="w-full grid grid-cols-7">
         <div className="col-span-2">
-          <CardHeader className="text-[8pt]">
-            <span>MAR — AUG 19</span>
+          <CardHeader className="text-sm text-slate-500">
+            <span className="">MAR — AUG 19</span>
             <Image
               className="pt-3"
               src="/images/rexroth.svg"

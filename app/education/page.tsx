@@ -11,10 +11,10 @@ import Image from 'next/image'
 
 export default function Education() {
   return (
-    <div className="flex flex-col gap-10 items-center overflow-y-auto no-scrollbar">
+    <div className="group/list flex flex-col gap-10 items-center overflow-y-auto no-scrollbar">
       <Card className="w-full grid grid-cols-7">
         <div className="col-span-2">
-          <CardHeader className="text-sm">
+          <CardHeader className="text-sm text-slate-500">
             <span>2022 — PRESENT</span>
             <Image
               className="pt-3"
@@ -35,7 +35,7 @@ export default function Education() {
 
       <Card className="w-full grid grid-cols-7">
         <div className="col-span-2">
-          <CardHeader className="text-sm whitespace-nowrap">
+          <CardHeader className="text-sm text-slate-500 whitespace-nowrap">
             <span>2017 — 2021</span>
             <Image
               className="pt-3"
@@ -62,7 +62,7 @@ export default function Education() {
 
       <Card className="w-full grid grid-cols-7">
         <div className="col-span-2">
-          <CardHeader className="text-sm">2016</CardHeader>
+          <CardHeader className="text-sm text-slate-500">2016</CardHeader>
         </div>
         <div className="col-span-5">
           <CardHeader>
