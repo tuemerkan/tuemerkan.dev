@@ -2,16 +2,19 @@
 
 import { ExternalLinkIcon } from '@radix-ui/react-icons'
 import Footer from './footer'
-import { ModeToggle } from './mode-toggle'
 import { Navbar } from './navbar'
 import Socials from './socials'
 import { Button } from './ui/button'
 import Link from 'next/link'
+import { ModeToggle } from './mode-toggle'
 
 export default function Sidebar() {
   return (
     <>
       <div>
+        <div className="lg:hidden pt-3 pr-3 absolute top-0 right-0">
+          <ModeToggle />
+        </div>
         <h1 className="text-4xl tracking-tight dark:text-slate-200 sm:text-5xl font-bold">
           Tümerkan Durmuş
         </h1>
@@ -27,9 +30,6 @@ export default function Sidebar() {
             </Button>
           </Link>
           <Socials />
-          <div className="lg:hidden pt-3">
-            <ModeToggle />
-          </div>
         </div>
 
         <div className="">
