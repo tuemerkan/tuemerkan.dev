@@ -17,7 +17,7 @@ export default function About() {
         had the privilege of learning to build software by studying
         <a
           href="/education"
-          className="text-orange-400 dark:text-slate-200 font-semibold dark:hover:text-orange-400"
+          className="text-orange-400 hover:text-black dark:text-slate-200 font-semibold dark:hover:text-orange-400"
         >
           {' '}
           computer science{' '}
@@ -25,7 +25,7 @@ export default function About() {
         and hands-on at various{' '}
         <a
           href="/experience"
-          className="text-orange-400 dark:text-slate-200 font-semibold dark:hover:text-orange-400"
+          className="text-orange-400 hover:text-black dark:text-slate-200 font-semibold dark:hover:text-orange-400"
         >
           {' '}
           companies{' '}
@@ -38,7 +38,7 @@ export default function About() {
         <a
           href="https://www.dbsystel.de/dbsystel"
           target="_blank"
-          className="text-orange-400 dark:text-slate-200 font-semibold dark:hover:text-orange-400"
+          className="text-orange-400 hover:text-black dark:text-slate-200 font-semibold dark:hover:text-orange-400"
         >
           {' '}
           Deutsche Bahn{' '}
@@ -49,7 +49,7 @@ export default function About() {
         <a
           href="https://www.getrespondo.com/"
           target="_blank"
-          className="text-orange-400 dark:text-slate-200 font-semibold dark:hover:text-orange-400"
+          className="text-orange-400 hover:text-black dark:text-slate-200 font-semibold dark:hover:text-orange-400"
         >
           {' '}
           AI tweet generator{' '}
@@ -57,7 +57,7 @@ export default function About() {
         and am currently working on a website for{' '}
         <a
           href="/projects"
-          className="text-orange-400 dark:text-slate-200 font-semibold dark:hover:text-orange-400"
+          className="text-orange-400 hover:text-black dark:text-slate-200 font-semibold dark:hover:text-orange-400"
         >
           {' '}
           booking vacation stays{' '}
