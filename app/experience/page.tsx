@@ -61,8 +61,10 @@ export default function Experience() {
 
       <Card className="w-full grid grid-cols-7">
         <div className="col-span-2">
-          <CardHeader className="text-sm text-slate-500">
-            <span>OCT 22 — MAR 23</span>
+          <CardHeader className="text-sm space-y-0 text-slate-500 whitespace-nowrap">
+            <span>OCT 22</span>
+            <span> — </span>
+            <span>MAR 23</span>
             <Image
               className="pt-3"
               src="/images/rexroth.svg"
@@ -90,8 +92,10 @@ export default function Experience() {
 
       <Card className="w-full grid grid-cols-7">
         <div className="col-span-2">
-          <CardHeader className="text-sm text-slate-500">
-            <span>OCT 21 — SEP 22</span>
+          <CardHeader className="text-sm space-y-0 text-slate-500">
+            <span>OCT 21</span>
+            <span> — </span>
+            <span>SEP 21</span>
             <Image
               className="pt-3"
               src="/images/rexroth.svg"
@@ -124,8 +128,10 @@ export default function Experience() {
 
       <Card className="w-full grid grid-cols-7">
         <div className="col-span-2">
-          <CardHeader className="text-sm text-slate-500">
-            <span>FEB — JUL 21</span>
+          <CardHeader className="text-sm text-slate-500 space-y-0">
+            <span>FEB 21</span>
+            <span> — </span>
+            <span>JUL 21</span>
             <Image
               className="pt-3"
               src="/images/siemens.svg"
@@ -150,8 +156,10 @@ export default function Experience() {
 
       <Card className="w-full grid grid-cols-7">
         <div className="col-span-2">
-          <CardHeader className="text-sm text-slate-500">
-            <span>MAR 20 — JAN 21</span>
+          <CardHeader className="text-sm text-slate-500 whitespace-nowrap space-y-0">
+            <span>MAR 20</span>
+            <span> — </span>
+            <span>JAN 21</span>
             <Image
               className="pt-3"
               src="/images/siemens.svg"
@@ -184,8 +192,10 @@ export default function Experience() {
 
       <Card className="w-full grid grid-cols-7">
         <div className="col-span-2">
-          <CardHeader className="text-sm text-slate-500">
-            <span className="">MAR — AUG 19</span>
+          <CardHeader className="text-sm text-slate-500 space-y-0">
+            <span>MAR 19</span>
+            <span> — </span>
+            <span>AUG 19</span>
             <Image
               className="pt-3"
               src="/images/rexroth.svg"

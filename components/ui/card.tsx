@@ -9,7 +9,7 @@ const Card = React.forwardRef<
   <div
     ref={ref}
     className={cn(
-      'rounded-xl group text-stone-950 shadow dark:text-stone-50 transition motion-reduce:transition-none lg:hover:bg-gray-700 lg:hover:backdrop-blur-md lg:hover:bg-opacity-15 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:!opacity-100 lg:group-hover/list:opacity-50',
+      'rounded-xl group text-stone-950 shadow dark:text-stone-50 transition motion-reduce:transition-none md:hover:bg-gray-700 md:hover:backdrop-blur-md md:hover:bg-opacity-15 md:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] md:hover:drop-shadow-lg md:hover:!opacity-100 md:group-hover/list:opacity-50',
       className
     )}
     {...props}
@@ -36,7 +36,7 @@ const CardTitle = React.forwardRef<
   <h3
     ref={ref}
     className={cn(
-      'font-semibold text-slate-200 group-hover:text-orange-400 leading-none tracking-tight ',
+      'font-semibold text-slate-200 lg:group-hover:text-orange-400 leading-none tracking-tight ',
       className
     )}
     {...props}

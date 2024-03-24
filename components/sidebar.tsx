@@ -23,7 +23,7 @@ export default function Sidebar() {
           <Navbar />
         </div>
       </div>
-      <div className="sm:block hidden">
+      <div className="lg:block hidden">
         <Socials />
       </div>
     </>
