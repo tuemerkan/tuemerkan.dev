@@ -12,7 +12,7 @@ import Image from 'next/image'
 
 export default function Education() {
   return (
-    <div className="group/list flex flex-col gap-10 items-center overflow-y-auto no-scrollbar">
+    <div className="group/list flex flex-col gap-10 items-center overflow-y-auto no-scrollbar pb-1">
       <a
         href="https://www.th-nuernberg.de/studiengang/informatik-msc/"
         target="_blank"
@@ -38,6 +38,15 @@ export default function Education() {
               </CardTitle>
               <CardDescription>Technische Hochschule Nürnberg</CardDescription>
             </CardHeader>
+            <CardContent>
+              <p>Favorite courses:</p>
+              <ul className="list-disc pl-3">
+                <li>Large Language Models</li>
+                <li>Conversational AI</li>
+                <li>Advanced Human-Computer-Interaction</li>
+                <li>Pervasive Computing</li>
+              </ul>
+            </CardContent>
           </div>
         </Card>
       </a>
@@ -68,7 +77,7 @@ export default function Education() {
             </CardHeader>
             <CardContent>
               <p>
-                Got introcued to software engineering and learned a broad
+                Got introduced to software engineering and learned a broad
                 spectrum of awesome technologies including VR, AR and gesture
                 controls.
               </p>

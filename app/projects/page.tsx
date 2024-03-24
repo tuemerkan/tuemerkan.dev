@@ -13,7 +13,7 @@ import Image from 'next/image'
 export default function Projects() {
   return (
     <>
-      <div className="group/list flex flex-col gap-10 items-center overflow-y-auto scroll no-scrollbar">
+      <div className="group/list pb-1 flex flex-col gap-10 items-center overflow-y-auto scroll no-scrollbar">
         <a href="https://getrespondo.com" target="_blank">
           <Card className="flex">
             <Image

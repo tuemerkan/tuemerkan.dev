@@ -16,7 +16,7 @@ export default function Experience() {
   const { theme } = useTheme()
 
   return (
-    <div className="group/list flex flex-col gap-10 items-center overflow-y-auto scroll no-scrollbar">
+    <div className="group/list pb-1 flex flex-col gap-10 items-center overflow-y-auto scroll no-scrollbar">
       <Card className="w-full grid grid-cols-7 ">
         <div className="col-span-2">
           <CardHeader className="text-sm text-slate-500">
