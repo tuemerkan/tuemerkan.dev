@@ -22,7 +22,8 @@ export function Navbar() {
             <Link href="/about" legacyBehavior passHref>
               <NavigationMenuLink
                 className={clsx(
-                  pathname === '/about' && 'font-bold text-stone-50 ',
+                  pathname === '/about' &&
+                    'font-bold text-orange-400 dark:text-stone-50 ',
                   navigationMenuTriggerStyle()
                 )}
               >
@@ -34,7 +35,8 @@ export function Navbar() {
             <Link href="/experience" legacyBehavior passHref>
               <NavigationMenuLink
                 className={clsx(
-                  pathname === '/experience' && 'font-bold text-stone-50',
+                  pathname === '/experience' &&
+                    'font-bold text-orange-400 dark:text-stone-50',
                   navigationMenuTriggerStyle()
                 )}
               >
@@ -46,7 +48,8 @@ export function Navbar() {
             <Link href="/education" legacyBehavior passHref>
               <NavigationMenuLink
                 className={clsx(
-                  pathname === '/education' && 'font-bold text-stone-50',
+                  pathname === '/education' &&
+                    'font-bold text-orange-400 dark:text-stone-50',
                   navigationMenuTriggerStyle()
                 )}
               >
@@ -58,7 +61,8 @@ export function Navbar() {
             <Link href="/projects" legacyBehavior passHref>
               <NavigationMenuLink
                 className={clsx(
-                  pathname === '/projects' && 'font-bold text-stone-50',
+                  pathname === '/projects' &&
+                    'font-bold text-orange-400 dark:text-stone-50',
                   navigationMenuTriggerStyle()
                 )}
               >

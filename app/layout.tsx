@@ -26,7 +26,7 @@ export default function RootLayout({
       <body
         className={clsx(
           inter.className,
-          'leading-relaxed text-slate-400 bg-[#080917] antialiased selection:bg-orange-400 selection:text-teal-900'
+          'leading-relaxed dark:text-slate-400 bg-[#fafafa] dark:bg-[#080917] antialiased selection:bg-orange-400 dark:selection:text-teal-900'
         )}
       >
         <CursorEffect className={''}>
@@ -35,7 +35,6 @@ export default function RootLayout({
           <ThemeProvider
             attribute="class"
             defaultTheme="dark"
-            enableSystem
             disableTransitionOnChange
           >
             <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">

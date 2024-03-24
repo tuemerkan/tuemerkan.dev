@@ -9,9 +9,12 @@ import {
   CardContent,
   CardFooter
 } from '@/components/ui/card'
+import { useTheme } from 'next-themes'
 import Image from 'next/image'
 
 export default function Experience() {
+  const { theme } = useTheme()
+
   return (
     <div className="group/list flex flex-col gap-10 items-center overflow-y-auto scroll no-scrollbar">
       <Card className="w-full grid grid-cols-7 ">
@@ -67,7 +70,7 @@ export default function Experience() {
             <span>MAR 23</span>
             <Image
               className="pt-3"
-              src="/images/rexroth.svg"
+              src={`/images/rexroth${theme == 'light' ? '_old' : ''}.svg`}
               width={75}
               height={75}
               alt="rexroth"
@@ -98,7 +101,7 @@ export default function Experience() {
             <span>SEP 21</span>
             <Image
               className="pt-3"
-              src="/images/rexroth.svg"
+              src={`/images/rexroth${theme == 'light' ? '_old' : ''}.svg`}
               width={75}
               height={75}
               alt="rexroth"
@@ -198,7 +201,7 @@ export default function Experience() {
             <span>AUG 19</span>
             <Image
               className="pt-3"
-              src="/images/rexroth.svg"
+              src={`/images/rexroth${theme == 'light' ? '_old' : ''}.svg`}
               width={75}
               height={75}
               alt="rexroth"

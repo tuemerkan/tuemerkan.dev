@@ -15,6 +15,7 @@ export default function Education() {
       <a
         href="https://www.th-nuernberg.de/studiengang/informatik-msc/"
         target="_blank"
+        className="w-full"
       >
         <Card className="w-full grid grid-cols-7">
           <div className="col-span-2">
@@ -78,8 +79,8 @@ export default function Education() {
         <div className="col-span-5">
           <CardHeader>
             <CardTitle>Abitur</CardTitle>
-            <CardDescription className="whitespace-nowrap">
-              Bertolt-Brecht Gymnasium Nürnberg
+            <CardDescription className="">
+              Bertolt-Brecht-Gymnasium Nürnberg
             </CardDescription>
           </CardHeader>
         </div>

@@ -1,5 +1,6 @@
 'use client'
 
+import { useTheme } from 'next-themes'
 import React, { ReactNode } from 'react'
 
 const CursorEffectPosition = () => {
@@ -23,10 +24,12 @@ interface CursorEffectProps {
   className: string
 }
 const CursorEffect: React.FC<CursorEffectProps> = ({ children, className }) => {
+  const { theme } = useTheme()
+  const effectColor = 'rgba(147, 51, 234, 0.15)'
   return (
     <div
       style={{
-        backgroundImage: `radial-gradient( 1200px at ${CursorEffectPosition().x}px ${CursorEffectPosition().y}px, rgba(147, 51, 234, 0.15), transparent 80% )`
+        backgroundImage: `radial-gradient( 1200px at ${CursorEffectPosition().x}px ${CursorEffectPosition().y}px, ${effectColor}, transparent 80% )`
       }}
       className={className}
     >

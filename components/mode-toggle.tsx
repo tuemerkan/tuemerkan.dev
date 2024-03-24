@@ -15,11 +15,12 @@ export function ModeToggle() {
   return (
     <Toggle
       onClick={() => (theme == 'dark' ? setTheme('light') : setTheme('dark'))}
-      className=""
+      className="my-3"
       variant={'outline'}
+      size={'sm'}
     >
       {theme === 'dark' || !theme ? (
-        <MoonIcon className="h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+        <MoonIcon className="h-[1.2rem] w-[1.2rem] rotate-90 scale-0  dark:rotate-0 dark:scale-100" />
       ) : (
         <SunIcon className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
       )}
