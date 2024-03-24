@@ -7,7 +7,7 @@ import {
   CardDescription,
   CardContent
 } from '@/components/ui/card'
-import { ExternalLinkIcon } from '@radix-ui/react-icons'
+import { ArrowTopRightIcon } from '@radix-ui/react-icons'
 import Image from 'next/image'
 
 export default function Projects() {
@@ -27,7 +27,7 @@ export default function Projects() {
               <CardHeader>
                 <CardTitle className="flex gap-1">
                   Respondo
-                  <ExternalLinkIcon />
+                  <ArrowTopRightIcon />
                 </CardTitle>
                 <CardDescription>
                   Generate engaging twitter replies with AI.

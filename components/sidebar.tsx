@@ -1,9 +1,12 @@
 'use client'
 
+import { ExternalLinkIcon } from '@radix-ui/react-icons'
 import Footer from './footer'
 import { ModeToggle } from './mode-toggle'
 import { Navbar } from './navbar'
 import Socials from './socials'
+import { Button } from './ui/button'
+import Link from 'next/link'
 
 export default function Sidebar() {
   return (
@@ -29,6 +32,11 @@ export default function Sidebar() {
         </div>
 
         <div className="lg:block hidden">
+          <Link href="/CV_EN.pdf" target="_blank">
+            <Button variant={'outline'} className=" gap-0.5">
+              View Full Resume <ExternalLinkIcon />
+            </Button>
+          </Link>
           <Socials />
         </div>
       </div>
