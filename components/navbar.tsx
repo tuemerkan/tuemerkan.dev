@@ -16,13 +16,13 @@ export function Navbar() {
 
   return (
     <>
-      <NavigationMenu orientation="vertical" className="py-16">
-        <NavigationMenuList className="flex-col items-start">
+      <NavigationMenu className="lg:py-16 py-12 lg:block ">
+        <NavigationMenuList className="lg:flex-col flex items-start w-screen gap-3">
           <NavigationMenuItem>
             <Link href="/about" legacyBehavior passHref>
               <NavigationMenuLink
                 className={clsx(
-                  pathname === '/about' && 'font-bold',
+                  pathname === '/about' && 'font-bold text-stone-50 ',
                   navigationMenuTriggerStyle()
                 )}
               >
@@ -34,7 +34,7 @@ export function Navbar() {
             <Link href="/experience" legacyBehavior passHref>
               <NavigationMenuLink
                 className={clsx(
-                  pathname === '/experience' && 'font-bold',
+                  pathname === '/experience' && 'font-bold text-stone-50',
                   navigationMenuTriggerStyle()
                 )}
               >
@@ -46,7 +46,7 @@ export function Navbar() {
             <Link href="/education" legacyBehavior passHref>
               <NavigationMenuLink
                 className={clsx(
-                  pathname === '/education' && 'font-bold',
+                  pathname === '/education' && 'font-bold text-stone-50',
                   navigationMenuTriggerStyle()
                 )}
               >
@@ -58,7 +58,7 @@ export function Navbar() {
             <Link href="/projects" legacyBehavior passHref>
               <NavigationMenuLink
                 className={clsx(
-                  pathname === '/projects' && 'font-bold',
+                  pathname === '/projects' && 'font-bold text-stone-50',
                   navigationMenuTriggerStyle()
                 )}
               >

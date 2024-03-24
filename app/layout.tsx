@@ -38,7 +38,7 @@ export default function RootLayout({
                 <header className="lg:sticky lg:top-0 lg:flex lg:max-h-[1vh] lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
                   <Sidebar />
                 </header>
-                <main id="content" className="pt-24 lg:w-1/2 lg:py-24">
+                <main id="content" className="lg:pt-24 lg:w-1/2 lg:py-24">
                   {children}
                 </main>
               </div>

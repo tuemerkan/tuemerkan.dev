@@ -5,7 +5,7 @@ import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar'
 export default function About() {
   return (
     <div className="flex flex-col items-center  gap-3">
-      <Avatar className="my-9">
+      <Avatar className="lg:my-9">
         <AvatarImage src="/images/pb.jpg" alt="@tuemerkan" />
         <AvatarFallback>tuemerkan</AvatarFallback>
       </Avatar>

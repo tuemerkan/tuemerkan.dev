@@ -15,10 +15,17 @@ export default function Sidebar() {
         </h2>
         <p className="mt-4 max-w-xs leading-normal">I like to fix things</p>
 
-        <Navbar />
-      </div>
+        <div className="lg:hidden">
+          <Socials />
+        </div>
 
-      <Socials />
+        <div className="">
+          <Navbar />
+        </div>
+      </div>
+      <div className="sm:block hidden">
+        <Socials />
+      </div>
     </>
   )
 }
