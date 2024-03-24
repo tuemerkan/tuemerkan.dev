@@ -7,6 +7,7 @@ import clsx from 'clsx'
 import CursorEffect from '@/lib/cursor-effect'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
+import Footer from '@/components/footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -45,6 +46,9 @@ export default function RootLayout({
                 <main id="content" className="lg:pt-24 lg:w-1/2 lg:py-24">
                   {children}
                 </main>
+                <div className="lg:hidden">
+                  <Footer />
+                </div>
               </div>
             </div>
           </ThemeProvider>

@@ -38,7 +38,7 @@ export default function Footer() {
           {' '}
           Vercel
         </a>
-        . <br />
+        . <br className="lg:block hidden" />
         All text is set in the
         <a
           href="https://rsms.me/inter/"

@@ -21,6 +21,11 @@ export default function Sidebar() {
         <p className="mt-4 max-w-xs leading-normal">I like to fix things</p>
 
         <div className="lg:hidden my-4">
+          <Link href="/CV_EN.pdf" target="_blank">
+            <Button variant={'outline'} className="mt-5 gap-0.5">
+              View Full Resume <ExternalLinkIcon />
+            </Button>
+          </Link>
           <Socials />
           <div className="lg:hidden pt-3">
             <ModeToggle />
