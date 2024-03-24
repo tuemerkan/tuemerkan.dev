@@ -7,6 +7,7 @@ import {
   CardDescription,
   CardContent
 } from '@/components/ui/card'
+import { ExternalLinkIcon } from '@radix-ui/react-icons'
 import Image from 'next/image'
 
 export default function Education() {
@@ -32,7 +33,9 @@ export default function Education() {
           </div>
           <div className="col-span-5">
             <CardHeader>
-              <CardTitle>M. Sc. Computer Science</CardTitle>
+              <CardTitle className="flex gap-1">
+                M. Sc. Computer Science <ExternalLinkIcon />
+              </CardTitle>
               <CardDescription>Technische Hochschule Nürnberg</CardDescription>
             </CardHeader>
           </div>
@@ -58,7 +61,9 @@ export default function Education() {
           </div>
           <div className="col-span-5">
             <CardHeader>
-              <CardTitle>B. Eng. Media Engineering</CardTitle>
+              <CardTitle className="flex gap-1">
+                B. Eng. Media Engineering <ExternalLinkIcon />
+              </CardTitle>
               <CardDescription>Technische Hochschule Nürnberg</CardDescription>
             </CardHeader>
             <CardContent>
