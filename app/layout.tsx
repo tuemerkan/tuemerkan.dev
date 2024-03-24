@@ -5,6 +5,8 @@ import { ThemeProvider } from '@/components/ui/theme-provider'
 import Sidebar from '@/components/sidebar'
 import clsx from 'clsx'
 import CursorEffect from '@/lib/cursor-effect'
+import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,6 +30,8 @@ export default function RootLayout({
         )}
       >
         <CursorEffect className={''}>
+          <Analytics />
+          <SpeedInsights />
           <ThemeProvider
             attribute="class"
             defaultTheme="dark"
