@@ -13,7 +13,18 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Tümerkan Durmuş',
-  description: 'Personal Website'
+  description:
+    'Tümerkan Durmus is a software engineer who likes to build software solutions that are precisely tailored to meet user needs.',
+  keywords: ['Tümerkan, Durmus, Software, Engineer'],
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Tümerkan Durmusş',
+    description:
+      'Tümerkan Durmus is a software engineer who likes to build software solutions that are precisely tailored to meet user needs.',
+    site: '@tuemerkan',
+    creator: '@tuemerkan',
+    images: ['https://tuemerkan.com/images/pb.jpg']
+  }
 }
 
 export default function RootLayout({
