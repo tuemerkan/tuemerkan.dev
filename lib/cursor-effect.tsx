@@ -1,6 +1,5 @@
 'use client'
 
-import { useTheme } from 'next-themes'
 import React, { ReactNode } from 'react'
 
 const CursorEffectPosition = () => {
@@ -24,7 +23,6 @@ interface CursorEffectProps {
   className: string
 }
 const CursorEffect: React.FC<CursorEffectProps> = ({ children, className }) => {
-  const { theme } = useTheme()
   const effectColor = 'rgba(147, 51, 234, 0.15)'
   return (
     <div
