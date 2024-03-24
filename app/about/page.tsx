@@ -67,7 +67,16 @@ export default function About() {
       </p>
       <p>
         When I&apos;m not at the computer, I&apos;m usually in the gym, mosque
-        or spending time with my wife and friends.
+        or spending time with my
+        <a
+          href="https://www.behance.net/larintalabdf05"
+          target="_blank"
+          className="text-orange-400 hover:text-black dark:text-slate-200 font-semibold dark:hover:text-orange-400"
+        >
+          {' '}
+          wife
+        </a>{' '}
+        and friends.
       </p>
     </div>
   )
