@@ -16,7 +16,7 @@ export function Navbar() {
 
   return (
     <>
-      <NavigationMenu className="lg:py-16 py-12 lg:block">
+      <NavigationMenu className="lg:py-16 pb-12 lg:block">
         <NavigationMenuList className="lg:flex-col lg:w-full w-screen gap-3">
           <NavigationMenuItem>
             <Link href="/about" legacyBehavior passHref>
