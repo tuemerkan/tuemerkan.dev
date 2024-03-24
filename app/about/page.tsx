@@ -45,7 +45,7 @@ export default function About() {
         </a>
         . I most enjoy building software in the sweet spot where design and
         engineering meet — things that look good but are also built well under
-        the hood. In my free time, I've also published an{' '}
+        the hood. In my free time, I&apos;ve also published an{' '}
         <a
           href="https://www.getrespondo.com/"
           target="_blank"
