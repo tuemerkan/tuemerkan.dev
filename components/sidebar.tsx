@@ -21,7 +21,9 @@ export default function Sidebar() {
         <h2 className="mt-3 text-lg  dark:md:text-slate-400 dark:text-slate-200 font-medium sm:text-xl">
           Software Engineer
         </h2>
-        <p className="mt-4 max-w-xs leading-normal">I like to fix things</p>
+        <p className="mt-4 max-w-xs leading-normal">
+          I like to find solutions or fix things.
+        </p>
 
         <div className="lg:hidden my-4">
           <Link href="/CV_EN.pdf" target="_blank">

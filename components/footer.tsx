@@ -15,7 +15,16 @@ export default function Footer() {
           rel="noreferrer noopener"
           aria-label="Next.js"
         >
-          Next.js
+          Next.js,
+        </a>
+        <a
+          href="https://ui.shadcn.com/"
+          className="font-medium text-orange-300 dark:text-slate-400 hover:text-orange-400 focus-visible:text-orange-400 dark:hover:text-orange-400 "
+          target="_blank"
+          rel="noreferrer noopener"
+          aria-label="Next.js"
+        >
+          shadcn/ui
         </a>{' '}
         and{' '}
         <a
@@ -38,8 +47,7 @@ export default function Footer() {
           {' '}
           Vercel
         </a>
-        . <br className="lg:block hidden" />
-        All text is set in the
+        . All text is set in the
         <a
           href="https://rsms.me/inter/"
           className="font-medium text-orange-300 dark:text-slate-400 hover:text-orange-400 dark:hover:text-orange-400 focus-visible:text-orange-400"
