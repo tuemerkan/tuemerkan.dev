@@ -12,7 +12,7 @@ export default function About() {
 
       <p>
         As a child, I spent most of the time on our PC, exploring Windows 98 to
-        its core or googling everything which comes to mind. For some reason, I
+        its core or googling everything that came to mind. For some reason, I
         typed a whole lexicon on Notepad. Fast-forward to today, and I&apos;ve
         had the privilege of learning to build software by studying
         <a
@@ -22,13 +22,13 @@ export default function About() {
           {' '}
           computer science{' '}
         </a>
-        and hands-on at various{' '}
+        and gaining hands-on experience at various{' '}
         <a
           href="/experience"
           className="text-orange-400 hover:text-black dark:text-slate-200 font-semibold dark:hover:text-orange-400"
         >
           {' '}
-          companies{' '}
+          companies
         </a>
         .
       </p>
@@ -41,11 +41,12 @@ export default function About() {
           className="text-orange-400 hover:text-black dark:text-slate-200 font-semibold dark:hover:text-orange-400"
         >
           {' '}
-          Deutsche Bahn{' '}
+          Deutsche Bahn
         </a>
-        . I most enjoy building software in the sweet spot where design and
-        engineering meet — things that look good but are also built well under
-        the hood. In my free time, I&apos;ve also published an{' '}
+        . I derive great satisfaction from diving deep into specific domains,
+        grasping their unique challenges, and then crafting software solutions
+        that are precisely tailored to meet those needs. In my free time,
+        I&apos;ve also published an{' '}
         <a
           href="https://www.getrespondo.com/"
           target="_blank"
@@ -60,13 +61,13 @@ export default function About() {
           className="text-orange-400 hover:text-black dark:text-slate-200 font-semibold dark:hover:text-orange-400"
         >
           {' '}
-          booking vacation stays{' '}
+          booking vacation stays
         </a>
         .
       </p>
       <p>
-        When I&apos;m not at the computer, I&apos;m usually in the gym, hanging
-        out with my friends, or in the mosque.
+        When I&apos;m not at the computer, I&apos;m usually in the gym, mosque
+        or spending time with my wife and friends.
       </p>
     </div>
   )
