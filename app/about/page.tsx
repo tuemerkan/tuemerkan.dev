@@ -7,7 +7,7 @@ export default function About() {
     <div className="flex flex-col items-center  gap-3">
       <Avatar className="lg:my-9">
         <AvatarImage src="/images/pb.jpg" alt="@tuemerkan" />
-        <AvatarFallback>tuemerkan</AvatarFallback>
+        <AvatarFallback delayMs={600}>tuemerkan</AvatarFallback>
       </Avatar>
 
       <p>
