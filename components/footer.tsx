@@ -15,7 +15,7 @@ export default function Footer() {
           rel="noreferrer noopener"
           aria-label="Next.js"
         >
-          Next.js,
+          Next.js,{' '}
         </a>
         <a
           href="https://ui.shadcn.com/"
@@ -34,9 +34,9 @@ export default function Footer() {
           rel="noreferrer noopener"
           aria-label="Tailwind CSS"
         >
-          Tailwind CSS
+          Tailwind CSS.{' '}
         </a>
-        , deployed with
+        Deployed with
         <a
           href="https://vercel.com/"
           className="font-medium text-orange-300 dark:text-slate-400 hover:text-orange-400 focus-visible:text-orange-400 dark:hover:text-orange-400 "

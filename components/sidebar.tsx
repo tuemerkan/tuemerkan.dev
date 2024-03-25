@@ -22,7 +22,7 @@ export default function Sidebar() {
           Software Engineer
         </h2>
         <p className="mt-4 max-w-xs leading-normal">
-          I like to find solutions or fix things.
+          I like to find solutions and fix things.
         </p>
 
         <div className="lg:hidden my-4">
