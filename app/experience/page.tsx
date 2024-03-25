@@ -19,10 +19,10 @@ export default function Experience() {
     <div className="group/list pb-1 flex flex-col gap-10 items-center overflow-y-auto scroll no-scrollbar">
       <Card className="w-full grid grid-cols-7 ">
         <div className="col-span-2">
-          <CardHeader className="text-sm text-slate-500">
+          <CardHeader className="text-xs text-slate-500">
             <span>APR 23 — PRESENT</span>
             <Image
-              className="pt-3"
+              className="pt-6"
               src="/images/db.svg"
               width={50}
               height={50}
@@ -64,12 +64,12 @@ export default function Experience() {
 
       <Card className="w-full grid grid-cols-7">
         <div className="col-span-2">
-          <CardHeader className="text-sm space-y-0 text-slate-500 whitespace-nowrap">
+          <CardHeader className="text-xs space-y-0 text-slate-500 whitespace-nowrap">
             <span>OCT 22</span>
             <span> — </span>
             <span>MAR 23</span>
             <Image
-              className="pt-3"
+              className="pt-5"
               src={`/images/rexroth${theme == 'light' ? '_old' : ''}.svg`}
               width={75}
               height={75}
@@ -95,12 +95,12 @@ export default function Experience() {
 
       <Card className="w-full grid grid-cols-7">
         <div className="col-span-2">
-          <CardHeader className="text-sm space-y-0 text-slate-500">
+          <CardHeader className="text-xs space-y-0 text-slate-500">
             <span>OCT 21</span>
             <span> — </span>
             <span>SEP 21</span>
             <Image
-              className="pt-3"
+              className="pt-5"
               src={`/images/rexroth${theme == 'light' ? '_old' : ''}.svg`}
               width={75}
               height={75}
@@ -131,12 +131,12 @@ export default function Experience() {
 
       <Card className="w-full grid grid-cols-7">
         <div className="col-span-2">
-          <CardHeader className="text-sm text-slate-500 space-y-0">
+          <CardHeader className="text-xs text-slate-500 space-y-0">
             <span>FEB 21</span>
             <span> — </span>
             <span>JUL 21</span>
             <Image
-              className="pt-3"
+              className="pt-6"
               src="/images/siemens.svg"
               width={75}
               height={75}
@@ -159,12 +159,12 @@ export default function Experience() {
 
       <Card className="w-full grid grid-cols-7">
         <div className="col-span-2">
-          <CardHeader className="text-sm text-slate-500 whitespace-nowrap space-y-0">
+          <CardHeader className="text-xs text-slate-500 whitespace-nowrap space-y-0">
             <span>MAR 20</span>
             <span> — </span>
             <span>JAN 21</span>
             <Image
-              className="pt-3"
+              className="pt-6"
               src="/images/siemens.svg"
               width={75}
               height={75}
@@ -195,12 +195,12 @@ export default function Experience() {
 
       <Card className="w-full grid grid-cols-7">
         <div className="col-span-2">
-          <CardHeader className="text-sm text-slate-500 space-y-0">
+          <CardHeader className="text-xs text-slate-500 space-y-0">
             <span>MAR 19</span>
             <span> — </span>
             <span>AUG 19</span>
             <Image
-              className="pt-3"
+              className="pt-5"
               src={`/images/rexroth${theme == 'light' ? '_old' : ''}.svg`}
               width={75}
               height={75}

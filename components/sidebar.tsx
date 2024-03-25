@@ -24,7 +24,7 @@ export default function Sidebar() {
         >
           Tümerkan Durmuş
         </h1>
-        <h2 className="mt-3 text-lg  dark:md:text-slate-400 dark:text-slate-200 font-medium sm:text-xl">
+        <h2 className="mt-3 text-lg  dark:text-slate-200 font-medium sm:text-xl">
           Software Engineer
         </h2>
         <p className="mt-4 max-w-xs leading-normal">

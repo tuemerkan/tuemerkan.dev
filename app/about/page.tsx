@@ -68,7 +68,7 @@ export default function About() {
         </span>
         .
       </p>
-      <p>
+      <p className="w-full">
         When I&apos;m not at the computer, I&apos;m usually in the gym, mosque
         or spending time with my
         <a

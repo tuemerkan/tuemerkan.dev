@@ -48,7 +48,7 @@ export default function Footer() {
           {' '}
           Vercel
         </a>
-        . All text is set in the
+        . <br className="xl:block hidden" /> All text is set in the
         <a
           href="https://rsms.me/inter/"
           className="font-medium text-orange-300 dark:text-slate-400 hover:text-orange-400 dark:hover:text-orange-400 focus-visible:text-orange-400"

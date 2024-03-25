@@ -20,10 +20,10 @@ export default function Education() {
       >
         <Card className="w-full grid grid-cols-7">
           <div className="col-span-2">
-            <CardHeader className="text-sm text-slate-500">
+            <CardHeader className="text-xs text-slate-500">
               <span>2022 — PRESENT</span>
               <Image
-                className="pt-3"
+                className="pt-7"
                 src="/images/ohm.png"
                 width={50}
                 height={50}
@@ -57,10 +57,10 @@ export default function Education() {
       >
         <Card className="w-full grid grid-cols-7">
           <div className="col-span-2">
-            <CardHeader className="text-sm text-slate-500 whitespace-nowrap">
+            <CardHeader className="text-xs text-slate-500 whitespace-nowrap">
               <span>2017 — 2021</span>
               <Image
-                className="pt-3"
+                className="pt-7"
                 src="/images/ohm.png"
                 width={50}
                 height={50}
@@ -88,7 +88,7 @@ export default function Education() {
 
       <Card className="w-full grid grid-cols-7">
         <div className="col-span-2">
-          <CardHeader className="text-sm text-slate-500">2016</CardHeader>
+          <CardHeader className="text-xs text-slate-500">2016</CardHeader>
         </div>
         <div className="col-span-5">
           <CardHeader>
