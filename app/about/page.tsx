@@ -1,8 +1,11 @@
 'use client'
 
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar'
+import { useRouter } from 'next/navigation'
 
 export default function About() {
+  const router = useRouter()
+
   return (
     <div className="flex flex-col items-center leading-relaxed gap-3">
       <Avatar className="lg:my-9">
@@ -15,21 +18,21 @@ export default function About() {
         its core or googling everything that came to mind. For some reason, I
         typed a whole lexicon on Notepad. Fast-forward to today, and I&apos;ve
         had the privilege of learning to build software by studying
-        <a
-          href="/education"
-          className="text-orange-400 hover:text-black dark:text-slate-200 font-semibold dark:hover:text-orange-400"
+        <span
+          onClick={() => router.push('/education')}
+          className="text-orange-400 hover:text-black dark:text-slate-200 cursor-pointer font-semibold dark:hover:text-orange-400"
         >
           {' '}
           computer science{' '}
-        </a>
+        </span>
         and gaining hands-on experience at various{' '}
-        <a
-          href="/experience"
-          className="text-orange-400 hover:text-black dark:text-slate-200 font-semibold dark:hover:text-orange-400"
+        <span
+          onClick={() => router.push('/education')}
+          className="text-orange-400 hover:text-black dark:text-slate-200 cursor-pointer font-semibold dark:hover:text-orange-400"
         >
           {' '}
           companies
-        </a>
+        </span>
         .
       </p>
       <p>
@@ -56,13 +59,13 @@ export default function About() {
           AI tweet generator{' '}
         </a>{' '}
         and am currently working on a website for{' '}
-        <a
-          href="/projects"
-          className="text-orange-400 hover:text-black dark:text-slate-200 font-semibold dark:hover:text-orange-400"
+        <span
+          onClick={() => router.push('/projects')}
+          className="text-orange-400 hover:text-black dark:text-slate-200 cursor-pointer font-semibold dark:hover:text-orange-400"
         >
           {' '}
           booking vacation stays
-        </a>
+        </span>
         .
       </p>
       <p>

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   keywords: ['Tümerkan, Durmus, Software, Engineer'],
   twitter: {
     card: 'summary_large_image',
-    title: 'Tümerkan Durmusş',
+    title: 'Tümerkan Durmuş',
     description:
       'Tümerkan Durmus is a software engineer who likes to build software solutions that are precisely tailored to meet user needs.',
     site: '@tuemerkan',
@@ -46,7 +46,8 @@ export default function RootLayout({
           <SpeedInsights />
           <ThemeProvider
             attribute="class"
-            defaultTheme="dark"
+            defaultTheme="system"
+            enableSystem
             disableTransitionOnChange
           >
             <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
