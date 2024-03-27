@@ -12,6 +12,7 @@ import Footer from '@/components/footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  icons: { icon: '/favicon.ico', apple: '/favicon.ico' },
   title: 'Tümerkan Durmuş',
   description: 'I like to find solutions and fix things.',
   keywords: ['Tümerkan, Durmus, Software, Engineer'],
