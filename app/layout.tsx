@@ -13,8 +13,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Tümerkan Durmuş',
-  description:
-    'Tümerkan Durmus is a software engineer who likes to build software solutions that are precisely tailored to meet user needs.',
+  description: 'I like to find solutions and fix things.',
   keywords: ['Tümerkan, Durmus, Software, Engineer'],
   twitter: {
     card: 'summary_large_image',
