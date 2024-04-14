@@ -38,11 +38,17 @@ export default function Experience() {
           <CardContent>
             <ul className="list-disc">
               <li>
-                Development of a web application for traffic management within a
-                cross-functional, agile team
+                Developed and managed a critical traffic management web
+                application in a cross-functional, agile team.
               </li>
-              <li>Contribution to a cross-team component library</li>
-              <li>Domain-Driven Design, Test-Driven Development</li>
+              <li>
+                Ensured high system availability and security through effective
+                monitoring and maintenance practices.
+              </li>
+              <li>
+                Enhanced development efficiency by contributing to a shared
+                component library.
+              </li>
             </ul>
           </CardContent>
           <CardFooter>
@@ -83,7 +89,11 @@ export default function Experience() {
             <CardDescription>Bosch Rexroth</CardDescription>
           </CardHeader>
           <CardContent>
-            <p>Developed a UI component library for control applications.</p>
+            <p>
+              Enhanced user experience and reduced development time through the
+              development of a UI component library for industrial control
+              applications.
+            </p>
           </CardContent>
           <CardFooter>
             <Badge>Angular</Badge>
@@ -117,7 +127,8 @@ export default function Experience() {
           </CardHeader>
           <CardContent>
             <p>
-              Developed a web and mobile application for logistics processes.
+              Led the development of a cross-platform application that optimized
+              logistics processes, achieving a 35% improvement in efficiency.
             </p>
           </CardContent>
           <CardFooter>
@@ -181,8 +192,9 @@ export default function Experience() {
           </CardHeader>
           <CardContent>
             <p>
-              Developed a mobile app for live visualization of industrial data
-              in augmented reality.
+              Developed a mobile application for live visualization of
+              industrial data in augmented reality, improving real-time
+              decision-making in production environments.
             </p>
           </CardContent>
           <CardFooter>
@@ -217,8 +229,8 @@ export default function Experience() {
           </CardHeader>
           <CardContent>
             <p>
-              Development of future-oriented Industry 4.0 projects (augmented
-              reality, image recognition, machine learning)
+              Contributed to the development of Industry 4.0 projects (image
+              recognition, machine learning, augmented reality).
             </p>
           </CardContent>
           <CardFooter>
