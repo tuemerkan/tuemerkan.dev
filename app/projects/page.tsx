@@ -43,26 +43,32 @@ export default function Projects() {
           </Card>
         </a>
 
-        <Card className="flex">
-          <Image
-            src="/images/progress.svg"
-            width={50}
-            height={50}
-            alt="progress"
-            className="pl-5"
-          />
-          <div>
-            <CardHeader>
-              <CardTitle>Project Name: AirVillas </CardTitle>
-              <CardDescription>In progress</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <p>
-                Booking platform especially for accommodation with full privacy.
-              </p>
-            </CardContent>
-          </div>
-        </Card>
+        <a href="https://villasprivate.com" target="_blank">
+          <Card className="flex">
+            <Image
+              src="/images/progress.svg"
+              width={50}
+              height={50}
+              alt="progress"
+              className="pl-5"
+            />
+            <div>
+              <CardHeader>
+                <CardTitle className="flex gap-1">
+                  VillasPrivate.com
+                  <ArrowTopRightIcon />
+                </CardTitle>
+                <CardDescription>In progress</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>
+                  Booking platform specifically for accommodation with full
+                  privacy.
+                </p>
+              </CardContent>
+            </div>
+          </Card>
+        </a>
       </div>
     </>
   )

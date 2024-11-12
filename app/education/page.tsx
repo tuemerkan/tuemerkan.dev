@@ -21,7 +21,7 @@ export default function Education() {
         <Card className="w-full grid grid-cols-7">
           <div className="col-span-2">
             <CardHeader className="text-xs text-slate-500">
-              <span>2022 — PRESENT</span>
+              <span>2022 — 2024</span>
               <Image
                 className="pt-7"
                 src="/images/ohm.png"

@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   icons: { icon: '/favicon.ico', apple: '/favicon.ico' },
   title: 'Tümerkan Durmuş',
-  description: 'I like to find solutions and fix things.',
+  description: 'I like to build products, find solutions and fix things.',
   keywords: ['Tümerkan, Durmus, Software, Engineer'],
   twitter: {
     card: 'summary_large_image',
